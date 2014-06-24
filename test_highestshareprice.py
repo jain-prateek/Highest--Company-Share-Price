@@ -7,8 +7,7 @@ class TestingHighestSharePrice(unittest.TestCase):
 	"""
 
 	def setUp(self):
-		self.expected_result = ['Company_0: 2013, Aug, 50', 'Company_1: 2011, Nov, 100',
-		'Company_2: 2010, Dec, 150', 'Company_3: 2010, May, 220', 'Company_4: 2012, Apr, 360']
+		self.expected_result = ['Company_0: 2006, Jan, 50', 'Company_1: 2012, Mar, 100', 'Company_2: 2011, May, 150', 'Company_3: 2008, Dec, 200', 'Company_4: 2011, Aug, 250']
 
 	def test_success(self):
 		""" Test the Working of Module.
