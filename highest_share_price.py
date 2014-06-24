@@ -37,7 +37,7 @@ class HighestSharePrice(object):
         """ Loading CSV File to the program, which
             contains stock data of multiple companies.
         """
-        with open('D:\Highest-Company-Share-Price\companies_stock_data.csv') as csv_file:
+        with open('D:\Highest--Company-Share-Price-master\companies_stock_data.csv') as csv_file:
             reader = csv.reader(csv_file)
             file_data = [row for row in reader]
 

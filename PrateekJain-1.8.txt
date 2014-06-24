@@ -6,8 +6,8 @@ Steps to run code:
 
 3.Copy whole foler to D:/ drive.
   >> d:
-4.Open Command Prompt and then navigate to "D:\Highest--Company-Share-Price".
-  >> cd Highest--Company-Share-Price
+4.Open Command Prompt and then navigate to "D:\Highest--Company-Share-Price-master".
+  >> cd Highest--Company-Share-Price-master
 
 5.To get list for each Company year and month in which the share price was highest, run command :
   >> python highest_share_price.py
