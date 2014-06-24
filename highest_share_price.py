@@ -26,17 +26,16 @@ import csv
 
 
 class HighestSharePrice(object):
-    """
-    These methods helps to find list for each Company
-    year and month in which the share price was highest.
+    """ These methods helps to find list for each Company
+	    year and month in which the share price was highest.
     """
 
     def __init__(self):
         self.companies_data = self.read_file()
 
     def read_file(self):
-        """Loading CSV File to the program, which
-           contains stock data of multiple companies.
+        """ Loading CSV File to the program, which
+            contains stock data of multiple companies.
         """
         with open('C:\Users\kumar.sarvan\Desktop\Highest-Share-Price\companies_stock_data.csv') as csv_file:
             reader = csv.reader(csv_file)
